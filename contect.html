@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>聯絡我</title>
+   <style type="text/css">
+    p{color:#150715;}
+   </style>
+</head>
+<body style="background-color:thistle;">
+    <dt><h2>聯絡方式</h2></dt>
+        <dd><h3>電子郵件：arnor1203@gmail.com</h3></dt>
+        <dd><h3>各種社群軟體皆可私訊</h3></dd>
+    <form action="/formprocess.php" method="post">
+
+        <p>Name:</p>
+        <p><input type="text" name="name" value="你的名字/暱稱"></p>
+    
+        <p>Email:</p>
+        <p><input name="species" type="text"></p>
+
+    
+        <p>工商選項</p>
+        <p><input type="radio" name="interest" value="typing">文字委託</p>
+        <p><input type="radio" name="interest" value="draw">繪圖委託</p>
+        <p><input type="radio" name="interest" value="other">其他（請在留言處詳述）</p>
+        <p><input type="radio" name="interest" value="none">無</p>
+
+        <p>留言: </p>
+        <p><textarea name="comments" rows="5" cols="20">你的留言暫時無法被接收，請投遞至信箱arnor1203@gmail.com</textarea></p>
+
+        <p><input type="submit" value="送出資料"></p>
+    
+    </form>
+</body>
+</html>
